@@ -5,7 +5,7 @@ body:
     attributes:
       value: |
         We are glad to have you build on Aptos with us!
-        Please choose some labels and fill out the questions below.
+        Please fill out the questions below.
   - type: textarea
     id: question
     attributes:
