@@ -57,9 +57,5 @@ body:
     id: env
     attributes:
       label: Describe your environment or tooling in detail
-      value: |
-        - OS: Windows 10
-        - TS-SDK: 1.12.2
-        - Aptos CLI: 3.1.0
-        - AptosFramework revision: mainnet
-        - Anything else you think is relevant
+      description: |
+        Operating system, computer architecture, SDK or tool version, AptosFramework version, anything else you feel is relevant
