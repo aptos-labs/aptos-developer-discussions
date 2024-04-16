@@ -1,0 +1,53 @@
+title: "Summary"
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We are glad to have you build on Aptos with us! |
+        Please choose some labels on the right and fill out the questions below.
+  - type: textarea
+    id: question
+    attributes:
+      label: Describe your question in detail
+  - type: textarea
+    id: error
+    attributes:
+      label: What error are you getting?
+  - type: textarea
+    id: attempt
+    attributes:
+      label: What have you tried?
+      description: |
+        Code snippet is preferred over screenshots
+  - type: dropdown
+    id: os
+    attributes:
+      label: What operating system are you using?
+      options:
+        - Windows
+        - Mac OS
+        - Linux (Ubuntu, Fedora, Windows WSL, etc.)
+        - N/A
+  - type: dropdown
+    id: tool
+    attributes:
+      label: What tool are you using?
+      options:
+        - TypesScript SDK
+        - Python SDK
+        - Rust SDK
+        - Unity SDK
+        - Aptos CLI
+        - Rest API
+        - N/A
+  - type: textarea
+    id: env
+    attributes:
+      label: Describe your environment or tooling in detail
+      value: |
+        - OS: Windows 10
+        - TS-SDK: 1.12.2
+        - Aptos CLI: 3.1.0
+        - AptosFramework revision: mainnet
+        - Anything else you think is relevant
