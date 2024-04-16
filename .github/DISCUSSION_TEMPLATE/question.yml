@@ -1,0 +1,62 @@
+title: "Question Title"
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We are glad to have you build on Aptos with us!
+        Please fill out the questions below.
+  - type: textarea
+    id: question
+    attributes:
+      label: Describe your question in detail. For example how do you get all transactions for a user with the TypeScript SDK?
+    validations:
+      required: true
+  - type: textarea
+    id: error
+    attributes:
+      label: What error, if any, are you getting?
+      description: |
+        If there is no error, you can leave this field blank.
+    validations:
+      required: false
+  - type: textarea
+    id: attempt
+    attributes:
+      label: What have you tried or looked at?  Or how can we reproduce the error?
+      description: |
+        Code snippets are preferred over screenshots
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Which operating system are you using?
+      options:
+        - Windows
+        - macOS
+        - Linux (Ubuntu, Fedora, Windows WSL, etc.)
+        - N/A
+    validations:
+      required: true
+  - type: dropdown
+    id: tool
+    attributes:
+      label: Which SDK or tool are you using? (if any)
+      options:
+        - TypeScript SDK
+        - Python SDK
+        - Rust SDK
+        - Unity SDK
+        - Aptos CLI
+        - REST API
+        - Indexer API
+        - N/A
+    validations:
+      required: true
+  - type: textarea
+    id: env
+    attributes:
+      label: Describe your environment or tooling in detail
+      description: |
+        Operating system, computer architecture, SDK or tool version, AptosFramework version, or anything else you feel is relevant
