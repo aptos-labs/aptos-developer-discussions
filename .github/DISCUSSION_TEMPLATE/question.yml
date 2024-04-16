@@ -23,9 +23,9 @@ body:
   - type: textarea
     id: attempt
     attributes:
-      label: What have you tried or how can we reproduce?
+      label: What have you tried or looked at?  Or how can we reproduce the error?
       description: |
-        Code snippet is preferred over screenshots
+        Code snippets are preferred over screenshots
     validations:
       required: true
   - type: dropdown
