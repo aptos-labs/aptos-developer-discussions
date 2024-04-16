@@ -59,4 +59,4 @@ body:
     attributes:
       label: Describe your environment or tooling in detail
       description: |
-        Operating system, computer architecture, SDK or tool version, AptosFramework version, anything else you feel is relevant
+        Operating system, computer architecture, SDK or tool version, AptosFramework version, or anything else you feel is relevant
