@@ -42,14 +42,15 @@ body:
   - type: dropdown
     id: tool
     attributes:
-      label: What tool are you using?
+      label: Which SDK or tool are you using? (if any)
       options:
-        - TypesScript SDK
+        - TypeScript SDK
         - Python SDK
         - Rust SDK
         - Unity SDK
         - Aptos CLI
-        - Rest API
+        - REST API
+        - Indexer API
         - N/A
     validations:
       required: true
