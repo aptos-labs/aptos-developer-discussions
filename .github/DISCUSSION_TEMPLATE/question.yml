@@ -31,10 +31,10 @@ body:
   - type: dropdown
     id: os
     attributes:
-      label: What operating system are you using?
+      label: Which operating system are you using?
       options:
         - Windows
-        - Mac OS
+        - macOS
         - Linux (Ubuntu, Fedora, Windows WSL, etc.)
         - N/A
     validations:
