@@ -17,7 +17,7 @@ body:
     attributes:
       label: What error, if any, are you getting?
       description: |
-        If no error, you can leave this field blank.
+        If there is no error, you can leave this field blank.
     validations:
       required: false
   - type: textarea
