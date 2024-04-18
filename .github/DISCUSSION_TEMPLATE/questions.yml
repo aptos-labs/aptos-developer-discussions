@@ -9,7 +9,9 @@ body:
   - type: textarea
     id: question
     attributes:
-      label: Describe your question in detail. For example how do you get all transactions for a user with the TypeScript SDK?
+      label: Describe your question in detail. 
+      description: |
+        For example how do you get all transactions for a user with the TypeScript SDK?
     validations:
       required: true
   - type: textarea
