@@ -6,6 +6,12 @@ body:
       value: |
         We are glad to have you build on Aptos with us!
         Please fill out the questions below.
+  - type: input
+    id: discord_userid
+    attributes:
+      label: Discord user ID
+    validations:
+      required: false
   - type: textarea
     id: question
     attributes:
