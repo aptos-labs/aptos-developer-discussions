@@ -17,7 +17,7 @@ body:
     attributes:
       label: Describe your question in detail. 
       description: |
-        For example how do you get all transactions for a user with the TypeScript SDK?
+        For example, how do you get all transactions for a user with the TypeScript SDK?
     validations:
       required: true
   - type: textarea
@@ -35,7 +35,7 @@ body:
       description: |
         Code snippets are preferred over screenshots
     validations:
-      required: true
+      required: false
   - type: dropdown
     id: os
     attributes:
