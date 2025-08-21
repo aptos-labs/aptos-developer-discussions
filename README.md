@@ -8,6 +8,9 @@ Welcome to the official Aptos Developer Discussions repository! This hub is desi
 - **Share Insights**: Share best practices, optimizations, or patterns.
 - **Contribute Ideas**: Suggest features or improvements for Aptos.
 - **Help Others**: Provide feedback, answer questions, and troubleshoot.
+- **Resolve Issues**: Solve some issues on the Issue board
+- **Stay Active and Engage**:  Regular participation in discussions is key. 
+- **Follow Coding Standards**: If contributing code (such as in a pull request), ensure that your code follows the project’s coding pattern. 
 
 ## Getting Started
 If you're new to the Aptos blockchain, this repository is also a great starting point to ask for beginner-friendly resources, tutorials, or tools that will help you get up to speed quickly.
